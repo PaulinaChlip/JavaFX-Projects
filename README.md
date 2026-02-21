@@ -4,14 +4,20 @@ A repository for projects done in Java using JavaFX library, currently contains 
 *  a drawing and calculating area project
 
 ## Microscope project
-allows the user to edit the live footage from either the inbuild camera of the computer, or from the microscope that is connected via USB. This project needs to have an added *s* programme running: it catches the frames from the camera and takes care of the buffer. In the version published here, in place of the live camera footage, there is a placeholder file, that lets the user see the functionalities being applied even without any camera equipment. **The features implemented in this project can act as picture editing features, allowing for simple image edition as well as comparing pictures, overlaying pictures and saving the newly crated images**.
-Functionalities include:
-* changing brightness, saturation, contrast, negative
-* zooming in/out
-* comparing two images next to each other in Dual Mode
-* overlaying another image on top and changing the opacity
-* saving the edited image
+allows the user to edit the live footage from either the inbuild camera of the computer, or from the microscope that is connected via USB. In the version published here, in place of the live camera footage, there is a placeholder file, that lets the user see the functionalities being applied even without any camera equipment. **The features implemented in this project can act as picture editing features, allowing for simple image edition as well as comparing pictures, overlaying pictures and saving the newly crated images**.
 
+Functionalities include:
+* changing brightness, saturation, contrast;
+* applying the negative of the image;
+* zooming in/out;
+* comparing two images next to each other in Dual Mode;
+* overlaying another image on top and changing the opacity;
+* saving the edited image;
+
+If the user wishes to use this project with a inbuild camera or a microscope, they need to:
+* uncomment the commented out part of code in Frames.java file
+* run the **s** programme on their computer, adding the executable permission beforehand (also adding this permission to **s_unilink**)
+* ensure no other programme uses the camera/microscope
 
 
 ## Polimorphism project
