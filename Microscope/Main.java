@@ -70,8 +70,8 @@ public class Main extends Application {
     private boolean dualMode=false;
     private boolean overlayMode=false;
     private byte[] lastProcessedBuffer;
-    private String currentFilePath = "Pictures/cute_cat.jpg";
-    private String placeholderImagePath = "Pictures/cute_cat.jpg";
+    private String currentFilePath = "Pictures/cute_cat.jpeg";
+    private String placeholderImagePath = "Pictures/cute_cat.jpeg";
 
     GraphicsContext gc;
     Canvas canvas;
